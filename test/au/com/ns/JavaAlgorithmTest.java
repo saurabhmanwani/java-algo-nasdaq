@@ -35,7 +35,7 @@ public class JavaAlgorithmTest {
         BigInteger c = new BigInteger("2");
         BigInteger sum = javaAlgorithm.getSum(n, c, SolutionType.LOOP);
         Assert.assertEquals(new BigInteger("21"), sum);
-        printMessage("With  i=5 and c=2, sum is : ", sum);
+        printMessage("Sample - With  i=5 and c=2, sum is : ", sum);
     }
 
     @Test
